@@ -1,0 +1,8 @@
+mac_admin:
+    resource: "@MacAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+mac_portfolio:
+    resource: "@MacPortfolioBundle/Resources/config/routing.yml"
+    prefix:   /
+
