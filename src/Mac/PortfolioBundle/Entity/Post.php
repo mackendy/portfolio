@@ -3,6 +3,7 @@
 namespace Mac\PortfolioBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 
 /**
  * Post
@@ -12,6 +13,11 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Post
 {
+    const TYPE_PAGE = 1;
+    const TYPE_POST = 2;
+    const TYPE_BLOG = 3;
+
+
     /**
      * @var integer
      *
@@ -72,8 +78,8 @@ class Post
 
     /**
      * @var string
-     *
-     * @ORM\Column(name="slug", type="string", length=255)
+     * @Gedmo\Slug(fields={"title"})
+     * @ORM\Column(name="slug", type="string", length=255, unique=true)
      */
     private $slug;
 
@@ -84,6 +90,10 @@ class Post
      */
     private $author;
 
+    public function __construct()
+    {
+        $this->date = new \DateTime("now");
+    }
 
     /**
      * Get id

@@ -1,0 +1,15 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+   {% for post in posts %}
+      <div class="blog-post">
+         <h2 class="blog-post-title"> {{ post.title }} </h2>
+         <img src="http://lorempixel.com/730/250/people/" alt="image" class="">
+         <p>{{ post.excerpt|raw }}</p>
+         <div class="clearfix"></div>
+         <hr>
+         <p>by :  {{ post.author }} - le {{ post.date|date('d M Y') }}  - <i class="icon-tag"></i>  {{ post.type }}</p>
+      </div>
+
+   {% endfor %}
+
+{% endblock %}

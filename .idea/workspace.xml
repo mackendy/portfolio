@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="911a8ff0-c3b9-4733-9288-6abfaec81fdc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Tests/Controller/PostControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Form/PostType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Post/edit.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Post/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Post/new.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Post/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/35cb438cf475843550b83c9c651133e827ba4be9.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/597877fc1359850fa8786ead82dcc8f6f491d628#showAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/597877fc1359850fa8786ead82dcc8f6f491d628.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/aa3b17a06c54069051111edd177f4b93a6b0ac40#toolbarAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/aa3b17a06c54069051111edd177f4b93a6b0ac40.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/4/43a80f0e087752a2d4724591f85aa0e1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/assetic/config/a/ae1b290dcfca1cdecd87a85bbe4b1164.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/templates.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0a/12/804a49e03a4999628e539093cd4e090bc40148576c03b279f2bcc25ddf68.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0c/4e/3b5eadd1f659357391bb913467573003f63aeb0ec118e71b242f09e70e02.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/19/b8/74590cc7fdbea063541b66be58e131ecb33f432b5536cd634d835cfed4c7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/1c/db/288c55a6acbb676ef693f635ee31ad7c8067477187e0901f2a71863eea1b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/2c/57/e3f5c392018d78b1ed2907ee22e772ace929bbd5fbcd92c8d45c7c5256fa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/4b/73/517fbb7a311ee488b9785ad0abb0e3374c54e88ea7f175a266b2c54ffe06.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/4f/ef/b7ca4f3bf974209395009fa114dc21808e2826fbacbe903209750108e44f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/57/49/9252897ddbac4f17539be6c76326df2c5cd890940e7938cbed0af3dd7c08.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/64/1b/4b479420662d27b300a9d24d42c3504567f20843827605ee74b9b0e86b13.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/71/25/2b44e20cd25147b386e36f3e53221ab5f0d692436b83acd0433166e6dd6e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/74/60/f9420959a0bed6957ee047121992f18ab8e00a60e86814bbe78d0420cbec.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/74/68/21a414271fa2e39733426b4c92148af07fd34592eedc6f8f670922774ddb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7b/04/0c82476c56c401c98647ecc441e8df88e49b7a76b2fa753582fe94ffdda3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/91/ed/2e8bdf90a2feeb03938290758dd329321bbf2d6a298e2d446285b7c20187.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/93/d8/002ba6065edf73722d2fafc93460ad9f81c3e9160491b8edc81cfcd09f98.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/99/d8/9a77d3a363cf77b87838026628799ceb9f07e87d9f09052737f0c5e54160.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a6/99/a8c9c641afcbd6236fbca9c996aae43f9c1cdaab333a6d2efcde1d96f4b9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a9/7f/db5dde49413c70b63cac34f5a34676eeedc0bd1c5c9c310ff2ca88a2ab6e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/aa/8b/0876674b6da0ce64a0eb9cd655426f740176e2cd82b768ed10bfebd744f9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ad/70/74ec46460fe28f6e5a997d2bc704929d471146b049fad9a42b6abfa02260.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/af/b7/882acc9a0539c9d2c2fc0d74238fb31682fa0d0742e0831ba1a2851d59b0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b4/8d/ad7efbb11219331a84df9d78da134eb3855cc969015b243f603f637a7b1e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b8/2a/3bc4a26be05c4b2ece099ee22a2f267fed2e9f07057f8799395633439f72.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c6/60/6ec69308c74cdbd7dd4ccfd0b325f520f84cc64b57ad28b6e109a1bc3bf6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d0/50/d417e57834c4009e0300cb341e10517abeece8c438ff8113935695e23295.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d2/cc/279f48aaf30888538f20078ea84a51285d24a47d49d034f54c4b381bedcd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/eb/df/b208cade85292b109a95effae2d1bd99335434f1254c47639bab54f711d0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ef/42/55d814da999a71c18a144eebe211de44f8174dff5e33c46a8ccfa1cdbefc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fb/25/17cfbd447aaf08f6fff63b8747b15dc0915252a26d07a0ccc9e104bba165.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fc/d8/1f9d0ee3cdeee1026f67abe7663f41bc45550bec6fcf24c24c14b15ec3ee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fd/78/b7a8bc88bc4520cafcd80fc89a525973102283d1a11fa2ca1a4f4c43c291.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/annotations/35cb438cf475843550b83c9c651133e827ba4be9#indexAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/annotations/35cb438cf475843550b83c9c651133e827ba4be9.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/annotations/aa3b17a06c54069051111edd177f4b93a6b0ac40#toolbarAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/annotations/aa3b17a06c54069051111edd177f4b93a6b0ac40.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevDebugProjectContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevDebugProjectContainer.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevDebugProjectContainer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevDebugProjectContainerCompiler.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevUrlGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevUrlGenerator.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevUrlMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/appDevUrlMatcher.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/assetic/config/4/43a80f0e087752a2d4724591f85aa0e1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/assetic/config/a/ae1b290dcfca1cdecd87a85bbe4b1164.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/assetic/routing.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/classes.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/classes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/classes.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/profiler/index.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/0c/4e/3b5eadd1f659357391bb913467573003f63aeb0ec118e71b242f09e70e02.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/19/b8/74590cc7fdbea063541b66be58e131ecb33f432b5536cd634d835cfed4c7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/1c/db/288c55a6acbb676ef693f635ee31ad7c8067477187e0901f2a71863eea1b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/2c/57/e3f5c392018d78b1ed2907ee22e772ace929bbd5fbcd92c8d45c7c5256fa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/4f/ef/b7ca4f3bf974209395009fa114dc21808e2826fbacbe903209750108e44f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/64/1b/4b479420662d27b300a9d24d42c3504567f20843827605ee74b9b0e86b13.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/6a/0e/95fc5bbe4681d20b10a013c8b0c7e0f2f4b2d0a0430d496add8735ece0e9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/71/25/2b44e20cd25147b386e36f3e53221ab5f0d692436b83acd0433166e6dd6e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/74/60/f9420959a0bed6957ee047121992f18ab8e00a60e86814bbe78d0420cbec.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/74/68/21a414271fa2e39733426b4c92148af07fd34592eedc6f8f670922774ddb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/7b/04/0c82476c56c401c98647ecc441e8df88e49b7a76b2fa753582fe94ffdda3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/91/ed/2e8bdf90a2feeb03938290758dd329321bbf2d6a298e2d446285b7c20187.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/93/d8/002ba6065edf73722d2fafc93460ad9f81c3e9160491b8edc81cfcd09f98.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/a9/7f/db5dde49413c70b63cac34f5a34676eeedc0bd1c5c9c310ff2ca88a2ab6e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/aa/8b/0876674b6da0ce64a0eb9cd655426f740176e2cd82b768ed10bfebd744f9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/ad/70/74ec46460fe28f6e5a997d2bc704929d471146b049fad9a42b6abfa02260.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/af/b7/882acc9a0539c9d2c2fc0d74238fb31682fa0d0742e0831ba1a2851d59b0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/b8/2a/3bc4a26be05c4b2ece099ee22a2f267fed2e9f07057f8799395633439f72.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/d0/50/d417e57834c4009e0300cb341e10517abeece8c438ff8113935695e23295.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/eb/df/b208cade85292b109a95effae2d1bd99335434f1254c47639bab54f711d0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/ef/42/55d814da999a71c18a144eebe211de44f8174dff5e33c46a8ccfa1cdbefc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/fb/25/17cfbd447aaf08f6fff63b8747b15dc0915252a26d07a0ccc9e104bba165.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev_old/twig/fc/d8/1f9d0ee3cdeee1026f67abe7663f41bc45550bec6fcf24c24c14b15ec3ee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/591accb85023e2f38910c8465d89d25a6dd1509b#indexAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/591accb85023e2f38910c8465d89d25a6dd1509b.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/597877fc1359850fa8786ead82dcc8f6f491d628#showAction.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/597877fc1359850fa8786ead82dcc8f6f491d628.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#addFlash.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#createAccessDeniedException.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#createForm.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#createNotFoundException.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#forward.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#generateUrl.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#get.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#getDoctrine.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#getRequest.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#getUser.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#isCsrfTokenValid.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#isGranted.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#redirect.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#redirectToRoute.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#renderView.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/657d22547c85f350850e6e809be52d5c2c0d77f6#stream.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/annotations/69b748bbdb21c9dbce0109b52d28fc1d6404463b#setContainer.cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/appProdProjectContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/appProdUrlMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/classes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/prod/twig/c6/3c/46b24a5a1c92604de39ef34060a586a92232dd0ec04ffbedadd6e385d6cd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/logs/prod.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/AbstractReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Annotation/TargetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/AnnotationReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/CachedReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DocLexerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DocParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/DummyClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/FileCacheReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/AnnotWithDefaultValue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/Route.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/Secure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Annotation/Version.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumInvalid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumLiteral.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationEnumLiteralInvalid.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetAll.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationTargetPropertyMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithAttributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithConstants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithRequiredAttributes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithRequiredAttributesWithoutContructor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithTargetSyntaxError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/AnnotationWithVarType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassDDC1660.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassNoNamespaceNoComment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassOverwritesTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassUsesTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationEnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationWithTargetSyntaxError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAnnotationWithVarType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithAtInDescriptionAndAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithClassAnnotationOnly.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithClosure.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithConstants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithFullyQualifiedUseStatements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithIgnoreAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithInvalidAnnotationTargetAtProperty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithRequire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/ClassWithValidAnnotationTarget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/DifferentNamespacesPerFileWithClassAsFirst.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/DifferentNamespacesPerFileWithClassAsLast.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/EqualNamespacesPerFileWithClassAsFirst.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/EqualNamespacesPerFileWithClassAsLast.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/GlobalNamespacesPerFileWithClassAsFirst.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/GlobalNamespacesPerFileWithClassAsLast.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/IgnoreAnnotationClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/IntefaceWithConstants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/InvalidAnnotationUsageButIgnoredClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/InvalidAnnotationUsageClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/MultipleClassesInFile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/MultipleImportsInUseStatement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespaceAndClassCommentedOut.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespaceWithClosureDeclaration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NamespacedSingleClassLOC1000.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NoAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/NonNamespacedClass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/SingleClassLOC1000.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/TestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Fixtures/TraitWithAnnotatedMethod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/PerformanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/PhpParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/SimpleAnnotationReaderTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Ticket/DCOM55Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Ticket/DCOM58Entity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/Ticket/DCOM58Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/Common/Annotations/TopLevelAnnotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/DoctrineTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/tests/Doctrine/Tests/TestInit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/public/css/body.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/acmedemo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bundles/sensiodistribution" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/arrows-active.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/arrows-active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/arrows-normal.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/arrows-normal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/avatar.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/avatar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/bg-input-focus.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/bg-input-focus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/bg-input.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/bg-input.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-chrome-big.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-chrome-big.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-firefox-big.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-firefox-big.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-safari.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/browser-safari.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/buttons.gif" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/buttons.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left-metro.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left-metro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left-metro@2x.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left-metro@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right-metro.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right-metro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right-metro@2x.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right-metro@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right@2x.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/chat-right@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/close-button-white.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/close-button-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/close-button.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/close-button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/crop.gif" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/crop.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/fontawesome-webfont-0.eot" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/fontawesome-webfont-0.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/fontawesome-webfont-62877.woff" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/fontawesome-webfont-62877.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework" afterPath="$PROJECT_DIR$/web/bundles/framework" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/glyphicons-halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular-0.eot" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular-0.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.eot" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.ttf" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.woff" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-white.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings-white.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphiconshalflings-regular-0.eot" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphiconshalflings-regular-0.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphiconshalflings-regular.woff" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphiconshalflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/icons-big.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/icons-big.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/icons-small.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/icons-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/mac.jpg" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/mac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/macadmin" afterPath="$PROJECT_DIR$/web/bundles/macadmin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/mackendy-jeudy.png" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/mackendy-jeudy.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/macportfolio" afterPath="$PROJECT_DIR$/web/bundles/macportfolio" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/off-63584.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/off-63584.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/on-63584.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/on-63584.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo1.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo10.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo11.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo12.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo13.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo4.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo5.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo7.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo9.jpg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/gallery/photo9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/progress.gif" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/progress.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quicklook-bg.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quicklook-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quicklook-icons.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quicklook-icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quote.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/quote.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/rayban.jpg" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/images/rayban.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/resize.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/resize.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_center-63584.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_center-63584.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_left-63584.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_left-63584.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_right-63584.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/iphone-style-checkboxes/slider_right-63584.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/spinner-mini.gif" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/spinner-mini.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/sprite.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-bg.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-bg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-left-arrow.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-left-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-right-arrow.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/timeline-right-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/toolbar.gif" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/toolbar.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/toolbar.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/toolbar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_454545_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_888888_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/ui-icons_cd0a0a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/uploadify-cancel.png" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/uploadify-cancel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocLexer.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocLexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/FileCacheReader.php" afterPath="$PROJECT_DIR$/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/FileCacheReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/counter.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/counter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/custom.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/elfinder.min.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/elfinder.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/elfinder.theme.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/elfinder.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/excanvas.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/excanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome-ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome-ie7.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome-ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome-ie7.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/font/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/fullcalendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.svg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/font/glyphicons-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-white.svg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/glyphicons.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/glyphicons.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings-white.svg" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/img/glyphicons_halflings-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/halflings.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/halflings.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/ie.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/ie9.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/ie9.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/travis/install-deps.sh" afterPath="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle/Doctrine/Bundle/DoctrineCacheBundle/Tests/travis/install-deps.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/jquery-1.9.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-migrat-1.0.0.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-migrat-1.0.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-ui-1.10.0.custom.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery-ui-1.10.0.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery-ui-1.8.21.custom.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery-ui-1.8.21.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.chosen.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.chosen.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.cleditor.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.cleditor.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.elfinder.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.elfinder.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.flot.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.flot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.flot.stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.gritter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.imagesloaded.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.imagesloaded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery.iphone.toggle.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery.iphone.toggle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.iphone.toggle.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.iphone.toggle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.knob.modified.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.knob.modified.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.masonry.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.masonry.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery.noty.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/jquery.noty.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.noty.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.noty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.ui.touch-punch.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.ui.touch-punch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.uploadify-3.1.min.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/jquery.uploadify-3.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/noty_theme_default.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/noty_theme_default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/retina.js" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/js/retina.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/security-checker" afterPath="$PROJECT_DIR$/bin/security-checker" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/security-checker" afterPath="$PROJECT_DIR$/vendor/sensiolabs/security-checker/security-checker" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style-forms.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style-forms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style-responsive.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/uniform.default.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/uniform.default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/uploadify.css" afterPath="$PROJECT_DIR$/src/Mac/AdminBundle/Resources/public/css/uploadify.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/validationEngine.jquery.css" afterPath="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/validationEngine.jquery.css" />
+    </list>
+    <ignored path="local.dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="local.dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="345" max-vertical-offset="4800">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="105" max-vertical-offset="2640">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mac/AdminBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24469821" vertical-offset="0" max-vertical-offset="613">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1215">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1320">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+                <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+                <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+                <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+                <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+                <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+                <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Push.Settings">
+    <option name="myUpdateMethod" value="REBASE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f180932c14f252cdc73edf148143149c079826e3" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/DataFixtures/ORM/LoadPost.php" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Repository/PostRepository.php" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/main.css" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Page/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Form/PostType.php" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/views/Page/list.html.twig" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/config/routing/post.yml" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PostController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Form/Handler/PostHandler.php" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/config/routing.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="25" />
+    <option name="width" value="1260" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Symfony2.SettingsForm" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="911a8ff0-c3b9-4733-9288-6abfaec81fdc" name="Default" comment="" />
+      <created>1418757070947</created>
+      <option name="number" value="Default" />
+      <updated>1418757070947</updated>
+    </task>
+    <task id="LOCAL-00001" summary="gitingore add">
+      <created>1418761160653</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1418761160653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add form handler">
+      <created>1418924295809</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1418924295809</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add form handler">
+      <created>1418924375482</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1418924375482</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change readme">
+      <created>1418930238624</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1418930238624</updated>
+    </task>
+    <task id="LOCAL-00005" summary="restart project">
+      <created>1418931576366</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1418931576366</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="15" y="25" width="1260" height="733" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14367816" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27914613" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34165367" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="init sf2" />
+    <MESSAGE value="gitingore add" />
+    <MESSAGE value="add form handler" />
+    <MESSAGE value="change readme" />
+    <MESSAGE value="restart project" />
+    <option name="LAST_COMMIT_MESSAGE" value="restart project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4650">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2640">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="285">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+            <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+            <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+            <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+            <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+            <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+            <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4650">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="285">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+            <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+            <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+            <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+            <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+            <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+            <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4800">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1215">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1320">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+            <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+            <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+            <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+            <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+            <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+            <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="4785">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="624" max-vertical-offset="1215">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1230">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="33" selection-end-column="65" />
+          <folding>
+            <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+            <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+            <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+            <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+            <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+            <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+            <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49915397" vertical-offset="12200" max-vertical-offset="17130">
+          <caret line="833" column="9" selection-start-line="833" selection-start-column="9" selection-end-line="833" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36585367" vertical-offset="270" max-vertical-offset="2025">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/public/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="345" max-vertical-offset="4800">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Controller/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="1215">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="699" max-vertical-offset="1320">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <marker date="1418931973000" expanded="true" signature="779:859" placeholder="form:" />
+            <marker date="1418931973000" expanded="true" signature="789:831" placeholder="resources:" />
+            <marker date="1418931973000" expanded="true" signature="1012:1539" placeholder="assetic:" />
+            <marker date="1418931973000" expanded="true" signature="1137:1539" placeholder="filters:" />
+            <marker date="1418931973000" expanded="true" signature="1575:2245" placeholder="doctrine:" />
+            <marker date="1418931973000" expanded="true" signature="1619:2080" placeholder="dbal:" />
+            <marker date="1418931973000" expanded="true" signature="2120:2245" placeholder="orm:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70962477" vertical-offset="0" max-vertical-offset="613">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2640">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/AdminBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5925297" vertical-offset="131" max-vertical-offset="720">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mac/PortfolioBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24469821" vertical-offset="0" max-vertical-offset="613">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

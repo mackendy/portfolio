@@ -1,0 +1,8 @@
+services:
+#    mac_portfolio.example:
+#        class: Mac\PortfolioBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+  mac.post_handler:
+    class: Mac\PortfolioBundle\Form\Handler\PostHandler
+    arguments: [@request_stack, @doctrine.orm.entity_manager, @session]

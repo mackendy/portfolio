@@ -1,0 +1,10 @@
+
+portfolio_homepage:
+    path:     /
+    defaults: { _controller: MacPortfolioBundle:Page:list }
+
+blog_view:
+    path:     /blog/view/{id}
+    defaults: { _controller: MacPortfolioBundle:Page:view }
+    requirements:
+           id: \d+
